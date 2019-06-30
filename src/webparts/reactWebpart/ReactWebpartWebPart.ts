@@ -18,7 +18,7 @@ export interface IReactWebpartWebPartProps {
 export default class ReactWebpartWebPart extends BaseClientSideWebPart<IReactWebpartWebPartProps> {
 
   public render(): void {
-    const element: React.ReactElement<IReactWebpartProps > = React.createElement(
+    const element: React.ReactElement<IReactWebpartProps> = React.createElement(
       ReactWebpart,
       {
         description: this.properties.description
